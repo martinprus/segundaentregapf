@@ -1,0 +1,95 @@
+/* CSS PARA HEADER Y FOOTER */
+
+header {
+  background: rgb(60, 161, 70);
+  background: linear-gradient(
+    0deg,
+    rgba(60, 161, 70, 1) 0%,
+    rgba(4, 37, 0, 1) 100%
+  );
+}
+
+footer div {
+  background: rgb(60, 161, 70);
+  background: linear-gradient(
+    180deg,
+    rgba(60, 161, 70, 1) 0%,
+    rgba(4, 37, 0, 1) 100%
+  );
+}
+
+a:hover {
+  background-color: rgb(106, 168, 106);
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  background: rgb(144, 247, 155);
+  background: rgb(144, 247, 155);
+  background: radial-gradient(
+    circle,
+    rgba(144, 247, 155, 0.8042162698412698) 0%,
+    rgba(80, 168, 80, 1) 17%,
+    rgba(23, 98, 14, 1) 50%
+  );
+}
+
+/* CSS Servicios */
+
+.tituloServicios {
+  width: 100%;
+  font-size: 2vw;
+  color: white;
+  background: rgb(60, 161, 70);
+  background: radial-gradient(
+    circle,
+    rgba(60, 161, 70, 1) 0%,
+    rgba(4, 37, 0, 1) 100%
+  );
+}
+
+ul .itemLista {
+  list-style-type: square;
+  font-size: medium;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+/* CSS Nosotros */
+
+.puestoNosotros {
+  color:darkgreen;
+  text-align: center;
+  background: rgb(144, 247, 155);
+  background: radial-gradient(
+    circle,
+    rgba(144, 247, 155, 0.8042162698412698) 0%,
+    rgba(23, 98, 14, 1) 100%
+  );
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+/* CSS Contacto */
+
+label {
+  color: white;
+  padding: 0.5em;
+  font-weight: bold;
+  border: 1px solid green;
+  width: 100%;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  background: rgb(144, 247, 155);
+  background: rgb(144, 247, 155);
+  background: linear-gradient(
+    205deg,
+    rgba(144, 247, 155, 0.8042162698412698) 0%,
+    rgba(80, 168, 80, 1) 32%,
+    rgba(23, 98, 14, 1) 65%
+  );
+}
